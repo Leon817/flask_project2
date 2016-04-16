@@ -29,6 +29,8 @@ class Sock(db.Model):
 
 You can set up your table or tables as you see here. If you have questions about the datatypes (String, etc.) see the [SQLAlchemy docs](http://docs.sqlalchemy.org/en/latest/core/type_basics.html).
 
+*If you have more than one table, you must make a class for each one.*
+
 ## Getting stuff to work: Routes
 
 There is only one route in this app (see **database_app.py**), and it demonstrates two ways to get data out of your database.
