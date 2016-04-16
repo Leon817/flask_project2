@@ -54,3 +54,13 @@ Open **templates/index.html** to see how the two variables from the route can be
 A for-loop in [Jinja2](http://jinja.pocoo.org/docs/dev/) syntax is used to loop through every record contained in **socks** and show the name and color for each.
 
 The desired fields from the **foo** record (row) are just dropped in among normal punctuation and HTML tags.
+
+## See the live app
+
+Compare the **index.html** template file with the live app [here](http://macloo.pythonanywhere.com/). The live app is hosted at PythonAnywhere. Here are [detailed instructions](https://webappsplus.wordpress.com/2016/04/15/pythonanywhere-how-to-docs/) I wrote for using PythonAnywhere.
+
+The fanciful database **sockmarket** contains records of socks. Here's how the records look in phpMyAdmin:
+
+![records in database table](socks_table.png)
+
+This is not a very exciting app! But I hope it is simple enough to be helpful.
