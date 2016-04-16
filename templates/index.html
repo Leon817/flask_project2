@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}My Flask Project{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Hello, MySQL!</h1>
+</div>
+
+<p>The list:</p>
+<ul>
+{% for sock in socks %}
+<li>{{ sock.name }}, {{ sock.color }}</li>
+{% endfor %}
+</ul>
+
+<p>The selected sock: {{ foo.name }}, {{ foo.style }}, ${{ foo.price }}</p>
+
+{% endblock %}
