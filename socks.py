@@ -9,7 +9,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'some secret string here'
 
-userpass = 'mysql://macloo:paTGIL2277@'
+userpass = 'mysql://macloo:papass@'
 basedir  = 'macloo.mysql.pythonanywhere-services.com'
 dbname   = '/macloo$sockmarket'
 
