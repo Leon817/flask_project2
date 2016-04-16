@@ -11,7 +11,7 @@ Another file is not part of the app at all, but was useful for testing the datab
 
 * local_db_setup.py
 
-Finally, the templates: 
+Finally, the templates:
 
 * base.html - The Bootstrap base file from [Flask-Bootstrap](https://pythonhosted.org/Flask-Bootstrap/).
 * index.html - The one template that opens in this app. Open this file to see the dynamic stuff and how it is formatted.
