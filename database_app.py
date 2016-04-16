@@ -8,7 +8,7 @@ from wtforms.validators import Required
 from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'some secret string here'
+app.config['SECRET_KEY'] = 'some secret string here' 
 
 userpass = 'mysql+pymysql://root:@'
 basedir  = '127.0.0.1'
