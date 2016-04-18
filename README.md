@@ -49,6 +49,8 @@ The variable **foo** in this route contains only the data from one row -- the ro
 
 Note how we must include the two variables explicitly in `render_template()` at the end of the route function.
 
+Note that to query (select) and write (insert) to the database, you need to use the Flask-SQLAlchemy commands, [which you can find here](http://flask-sqlalchemy.pocoo.org/2.1/queries/#querying-records).
+
 ## How the template uses the data
 
 Open **templates/index.html** to see how the two variables from the route can be used. You can find **socks** and **foo** in the code in lines 13 and 18. Dot-syntax is used to access the individual columns (db fields) in the row (db record).
